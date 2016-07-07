@@ -23,3 +23,8 @@ img {
     position: relative; /* allows repositioning */
     width: 100%
 }
+
+.top {
+  background-image: url("../palmie.jpg");
+  background-size: cover;
+}
