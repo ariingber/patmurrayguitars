@@ -6,6 +6,49 @@
  * Made By MaterializeCSS.com
  */
 
+ .view {
+  font-size: 1.4vw;
+}
+.exp {
+  font-size: 2vw !important;
+}
+.toplinks {
+  font-size: 1.5vw !important;
+}
+
+@media (max-width: 515px) {
+  .toplinks {
+    font-size: 2vw !important;
+  }
+  .view {
+    font-size: 10vw !important;
+  }
+}
+
+@media (max-width: 525px) {
+  #exp {
+    font-size: 10px !important;
+  }
+  #tech{
+    font-size: 10px !important;
+  }
+  #bench {
+    font-size: 10px !important;
+  }
+
+}
+
+@media (max-width: 888px) {
+  .view {
+    font-size: 1.9vw !important;
+  }
+  .toplinks {
+    font-size: 2vw !important;
+  }
+}
+
+
+
 .icon-block {
   padding: 0 15px;
 }
@@ -22,6 +65,10 @@
 img {
     position: relative; /* allows repositioning */
     width: 100%
+}
+#resume {
+  padding: 25px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
 /*.top {
