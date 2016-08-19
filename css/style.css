@@ -8,6 +8,7 @@
 
  .view {
   font-size: 1.4vw;
+  display: inline-block;
 }
 .exp {
   font-size: 2vw !important;
