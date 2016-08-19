@@ -52,7 +52,9 @@
 }
 
 
-
+body {
+  background-color: white !important;
+}
 .icon-block {
   padding: 0 15px;
 }
