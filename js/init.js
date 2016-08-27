@@ -18,7 +18,7 @@ $(document).ready(function(){
   });
 
 $(document).ready(function(){
-    $('.slider').slider({full_width: true, height: 600});
+    $('.slider').slider({full_width: true, height: 400});
   });
 
 $(document).ready(function() {
@@ -28,4 +28,11 @@ $(document).ready(function() {
 $(document).ready(function(){
     // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
     $('.modal-trigger').leanModal();
+  });
+$(document).ready(function(){
+      $('.carousel').carousel({dist:0});
+    });
+
+$(document).ready(function(){
+    $('.scrollspy').scrollSpy();
   });
