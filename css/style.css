@@ -76,6 +76,18 @@ img {
   padding: 25px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
+snipcart-add-item {
+  border: none;
+  border-radius: 2px;
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  outline: 0;
+  padding: 0 2rem;
+  text-transform: uppercase;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+}
 
 /*.top {
   background-image: url("../peach1.jpg");
